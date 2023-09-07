@@ -2,7 +2,9 @@ from flask import Flask
 import psycopg2
 import datetime
 
-connection = psycopg2.connect(user="yashwantsoni", database = "juavail", password = "root")
+#cecid68764@horsgit.com
+#Odint@2515
+connection = psycopg2.connect("postgres://qjeqdubt:puPAcyhyc5JaLatA32l4ZuMXqNw0zSLB@rain.db.elephantsql.com/qjeqdubt")
 
 def get_lec(room):
     lecs = []
