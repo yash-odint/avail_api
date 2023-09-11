@@ -1,4 +1,4 @@
-fetch("http://192.168.1.34:9999/avail")
+fetch("http://172.20.10.4:9999/avail")
 .then(function(res){
   return res.json();
 })
